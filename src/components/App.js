@@ -3,7 +3,7 @@ import { Grid } from '@material-ui/core';
 
 import SearchBar from './SearchBar/SearchBar';
 import VideoDetail from './VideoDetail/VideoDetail';
-import VideoList from './VideoList';
+import VideoList from './VideoList/VideoList';
 
 import youtube from '../components/api/youtube.js';
 
