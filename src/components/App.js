@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Grid } from '@material-ui/core';
 
 import SearchBar from './SearchBar/SearchBar';
@@ -7,7 +7,7 @@ import VideoList from './VideoList/VideoList';
 
 import youtube from '../components/api/youtube.js';
 
-class App extends React.Component {
+class App extends Component {
     state = {
         videos: [],
         selectedVideo: null,
@@ -39,6 +39,7 @@ class App extends React.Component {
     render(){
         const {selectedVideo, videos} = this.state;
         return(
+            <div>   
             <Grid justify="center" container spacing={10}>
                 <Grid item xs={12}>
                     <Grid container spacing={10}>
@@ -54,6 +55,7 @@ class App extends React.Component {
                     </Grid>
                 </Grid>
             </Grid>
+            </div> 
         )
     }
 }
