@@ -5,11 +5,13 @@ import VideoItem from "../VideoItem/VideoItem";
 
 export default ({ videos, onVideoSelect }) => {
   const listOfVideos = videos.map(video => (
-    <VideoItem
-      onVideoSelect={onVideoSelect}
-      key={video.id.videoId}
-      video={video}
-    />
+    <div>
+      <VideoItem
+        onVideoSelect={onVideoSelect}
+        key={video.id.videoId}
+        video={video}
+      />
+    </div>
   ));
 
   return (
