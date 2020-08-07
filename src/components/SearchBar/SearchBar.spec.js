@@ -34,5 +34,16 @@ describe('SearchBar', () => {
     component.unmount();
   });
 
+  it("should change the update the state of 'SearchTerm' when the input is changed", () => {
+    const component = mount(<SearchBar />);
+  
+    expect(component.state()).toEqual({"searchTerm": ""});
+    component
+      .find("input")
+      .simulate("change", { target: { name: "SearchTerm", value: "test" } });
+    expect(component.state()).toEqual({"searchTerm": "test"});
+  
+    component.unmount();
+  });
 
 });
