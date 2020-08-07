@@ -13,7 +13,6 @@ describe('SearchBar', () => {
   });
 
   it('should render a <form />', () => {
-    const wrapper = shallow(<SearchBar />);
     expect(wrapper.find('form').length).toEqual(1);
   });
 
