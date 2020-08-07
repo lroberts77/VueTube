@@ -18,6 +18,11 @@ describe('SearchBar', () => {
     expect(wrapper.find('form').length).toEqual(1);
   });
 
+  it('renders the value of SearchTerm', () => {
+    wrapper.setState({ SearchTerm: 'basketball' });
+    expect(wrapper.state('SearchTerm')).toEqual('basketball');
+  });
+
   it("should call onFormSubmit when a search term is submitted", () => {
     const mockFunction = jest.fn();
   
