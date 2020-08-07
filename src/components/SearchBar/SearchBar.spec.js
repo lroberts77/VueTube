@@ -8,6 +8,8 @@ describe('SearchBar', () => {
 
   beforeEach(() => wrapper = shallow(<SearchBar  SearchTerm={''} />));
 
+  it('should render correctly', () => expect(wrapper).toMatchSnapshot());
+
   it('should render a <div />', () => {
     expect(wrapper.find('div').length).toEqual(1);
   });
@@ -31,11 +33,20 @@ describe('SearchBar', () => {
   
     component.unmount();
   });
+});
+
+describe('mounted Searchbar', () => {
+
+  let component;
+
+  beforeEach(() => component = mount(<SearchBar/>));
+
+  it("should show the default the state of 'SearchTerm'", () => {
+  expect(component.state()).toEqual({"searchTerm": ""});
+  });
 
   it("should change the update the state of 'SearchTerm' when the input is changed", () => {
-    const component = mount(<SearchBar />);
   
-    expect(component.state()).toEqual({"searchTerm": ""});
     component
       .find("input")
       .simulate("change", { target: { name: "SearchTerm", value: "test" } });
