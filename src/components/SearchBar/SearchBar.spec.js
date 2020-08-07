@@ -9,7 +9,6 @@ describe('SearchBar', () => {
   beforeEach(() => wrapper = shallow(<SearchBar  SearchTerm={''} />));
 
   it('should render a <div />', () => {
-    const wrapper = shallow(<SearchBar />);
     expect(wrapper.find('div').length).toEqual(1);
   });
 
