@@ -41,3 +41,21 @@ it("renders a video item's title", () => {
   );
   expect(wrapper.text()).toEqual("videoTitle");
 });
+
+it("should call onVideoSelect when a video is selected", () => {
+  const mockFunction = jest.fn();
+  const component = mount(
+    <VideoItem
+      video={{
+        snippet: { title: "123", thumbnails: { medium: { url: "23" } } }
+      }}
+      onVideoSelect={mockFunction}
+    />
+  );
+  component
+    .find("div")
+    .at(0)
+    .simulate("click");
+  expect(mockFunction).toHaveBeenCalled();
+  component.unmount();
+});
