@@ -25,3 +25,19 @@ it("should render a div", () => {
   );
   expect(wrapper.find('div').length).toBe(1);
 }); 
+
+it("renders a video item's title", () => {
+  const wrapper = setup(
+    {
+      video: {
+        snippet: {
+          thumbnails: { medium: { url: "www.video.com" } },
+          title: "videoTitle"
+        },
+        id: { videoId: "123" }
+      }
+    },
+    { onVideoSelect: App.onVideoSelect }
+  );
+  expect(wrapper.text()).toEqual("videoTitle");
+});
