@@ -52,10 +52,8 @@ it("should call onVideoSelect when a video is selected", () => {
       onVideoSelect={mockFunction}
     />
   );
-  component
-    .find("div")
-    .at(0)
-    .simulate("click");
+  component.find("div").at(2).simulate("click");
   expect(mockFunction).toHaveBeenCalled();
+
   component.unmount();
 });
