@@ -24,4 +24,4 @@ it("should render a div", () => {
     { onVideoSelect: App.onVideoSelect }
   );
   expect(wrapper.find('div').length).toBe(1);
-});
+}); 

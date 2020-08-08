@@ -22,7 +22,7 @@ describe("when a video has been selected", () => {
 
   let mockFunction;
 
-  let wrapper;
+  let wrapper; 
 
   beforeEach(() => {
     mockFunction = jest.fn();
@@ -30,7 +30,8 @@ describe("when a video has been selected", () => {
       snippet: { thumbnails: { medium: "123" }, title: "title" },
       id: { videoId: "123" }
     };
-    wrapper = setup({ videos: [video], onVideoSelect: { mockFunction } });
+
+    wrapper = setup({ videos: [video], onVideoSelect: { mockFunction } }); 
 
     it("should render a list of video items", () => {
       const wrapper = setup({ videos: [video], onVideoSelect: { mockFunction } });

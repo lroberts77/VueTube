@@ -7,4 +7,4 @@ describe('VideoDetail', () => {
     const wrapper = shallow(<VideoDetail />);
     expect(wrapper.find('div').length).toEqual(1);
   });
-});
+}); 

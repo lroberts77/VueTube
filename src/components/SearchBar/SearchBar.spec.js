@@ -15,7 +15,7 @@ describe('SearchBar', () => {
   });
 
   it('should render a <form />', () => {
-    expect(wrapper.find('form').length).toEqual(1);
+    expect(wrapper.find('form').length).toEqual(1); 
   });
 
   it('renders the value of SearchTerm', () => {
@@ -29,30 +29,30 @@ describe('SearchBar', () => {
     const component = mount(<SearchBar onFormSubmit={mockFunction} />);
   
     component.find("form").simulate("submit");
-    expect(mockFunction).toHaveBeenCalled();
+    expect(mockFunction).toHaveBeenCalled(); 
   
     component.unmount();
   });
 });
 
-describe('mounted Searchbar', () => {
+  describe('mounted Searchbar', () => {
 
-  let component;
-
-  beforeEach(() => component = mount(<SearchBar/>));
-
-  it("should show the default the state of 'SearchTerm'", () => {
-  expect(component.state()).toEqual({"searchTerm": ""});
-  });
-
-  it("should change the update the state of 'SearchTerm' when the input is changed", () => {
+    let component;
   
-    component
-      .find("input")
-      .simulate("change", { target: { name: "SearchTerm", value: "test" } });
-    expect(component.state()).toEqual({"searchTerm": "test"});
+    beforeEach(() => component = mount(<SearchBar/>));
   
-    component.unmount();
+    it("should show the default the state of 'SearchTerm'", () => {
+    expect(component.state()).toEqual({"searchTerm": ""});
+    });
+  
+    it("should change the update the state of 'SearchTerm' when the input is changed", () => {
+    
+      component
+        .find("input")
+        .simulate("change", { target: { name: "SearchTerm", value: "test" } });
+      expect(component.state()).toEqual({"searchTerm": "test"});
+    
+      component.unmount();
+    });
+  
   });
-
-});

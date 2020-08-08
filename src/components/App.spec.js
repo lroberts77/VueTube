@@ -7,5 +7,5 @@ describe('App', () => {
     const wrapper = shallow(<App />);
     expect(wrapper.find('div').length).toEqual(1);
   });
-});
+}); 
 
