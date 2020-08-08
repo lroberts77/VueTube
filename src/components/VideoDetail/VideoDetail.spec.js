@@ -22,10 +22,20 @@ describe('VideoDetail', () => {
 
     it("renders a prompt message when there is no video", () => {
       const wrapper = setup({ video: null });
-      // const message = findByTestAttr(wrapper, "prompt-message");
-      expect(wrapper.length).toBe(1);
       expect(wrapper.text()).toEqual("Loading...");
     });
   });
+
+  describe("if the user has selected a video", () => {
+    it("renders the video detail component", () => {
+      const wrapper = setup({
+        video: { snippet: { title: "video" }, id: { videoId: "123" } }
+      });
+
+      expect(wrapper.length).toBe(1);
+      
+    });
+  });
+  
   
 }); 
