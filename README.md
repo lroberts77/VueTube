@@ -8,6 +8,9 @@
 * [Npm Testing](#Npmtest)
 * [Usage](#Usage)
 
+## <a name="Project">Project Direction</a>
+I created this app to improve my understanding of testing with jest and enzyme, components and API's. Although I ran into a few problems making this app I learned alot including shallow tesing with enzyme, state management and API usage.
+
 ## <a name="user-stories">User Stories</a>
 
 ```
