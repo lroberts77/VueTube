@@ -14,7 +14,7 @@ const VideoList =  ({ videos, onVideoSelect }) => {
 
   return (
     <div test="video-list-component">
-      <Grid container spacing={10}>
+      <Grid container spacing={12}>
         {listOfVideos}
       </Grid>
     </div>
