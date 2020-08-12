@@ -35,3 +35,9 @@ As a user of Video Player.
 When I've searched for the video I want to watch,
 I expect to be able to click the video and my video to begin playing.
 ```
+
+## Improvements
+
+* Add test coverage results
+* Restyle the app
+* Deploy app 
