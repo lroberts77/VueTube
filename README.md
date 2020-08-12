@@ -41,3 +41,11 @@ I expect to be able to click the video and my video to begin playing.
 * Add test coverage results
 * Restyle the app
 * Deploy app 
+
+## <a name="Install">Installation</a>
+* Clone repo
+```shell
+$ git clone git@github.com:lroberts77/VueTube.git
+$ cd Vuetube
+$ npm install
+```
