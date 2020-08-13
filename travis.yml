@@ -1,1 +1,9 @@
-language: node_js
+language: bash
+
+sudo: required
+
+services: 
+- node
+
+script: 
+- echo "hello world"
