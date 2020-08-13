@@ -1,6 +1,6 @@
-language: bash
-
-sudo: required
+language: node_js
+node_js:
+- "stable"
 
 script: 
 - echo "hello world"
