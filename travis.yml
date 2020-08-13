@@ -2,8 +2,5 @@ language: bash
 
 sudo: required
 
-services: 
-- node
-
 script: 
 - echo "hello world"
