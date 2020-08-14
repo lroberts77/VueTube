@@ -43,15 +43,11 @@ I expect to be able to click the video and my video to begin playing.
 * Deploy app 
 
 ## <a name="Install">Installation</a>
-* Clone repo
+The deployed live app is [HERE](https://vuetube-react.herokuapp.com/)
+
+* Or to clone the repo
 ```shell
 $ git clone git@github.com:lroberts77/VueTube.git
 $ cd Vuetube
 $ npm install
 ```
-
-
-    // "start": "react-scripts start",
-    // "build": "react-scripts build",
-    // "test": "react-scripts test",
-    // "eject": "react-scripts eject"
