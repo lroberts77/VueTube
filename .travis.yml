@@ -9,4 +9,5 @@ before_script:
 script:
  - npm test
  - echo "hello world"
+ - npm run build
     
