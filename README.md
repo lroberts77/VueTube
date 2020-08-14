@@ -49,3 +49,9 @@ $ git clone git@github.com:lroberts77/VueTube.git
 $ cd Vuetube
 $ npm install
 ```
+
+
+    // "start": "react-scripts start",
+    // "build": "react-scripts build",
+    // "test": "react-scripts test",
+    // "eject": "react-scripts eject"
