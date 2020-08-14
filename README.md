@@ -1,5 +1,5 @@
 # Vuetube React
-### Technologies: React, jest, enzyme, travis CI, JavaScript, Youtube's API, HTML, CSS, axios
+### Technologies: React, jest, enzyme, travis CI, heroku CD JavaScript, Youtube's API, HTML, CSS, axios
 
 ## Index
 * [Project Direction](#Project)
