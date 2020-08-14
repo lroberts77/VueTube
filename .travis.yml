@@ -10,4 +10,10 @@ script:
  - npm test
  - echo "hello world"
  - npm run build
+
+deploy:
+provider: heroku
+app: vuetube-react
+api_key:
+  secure: cd46f4d2-3a26-412c-8511-4f75ee6258cc
     
