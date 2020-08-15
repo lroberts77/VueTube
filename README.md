@@ -47,6 +47,12 @@ $ cd Vuetube
 $ npm install
 ```
 
+## <a name="Npmtest">Npm Testing</a>
+* In the root of the project
+```shell
+$ npm test
+```
+
 ## <a name="Improvements">Improvements</a>
 * Add test coverage results
 * Restyle the app
