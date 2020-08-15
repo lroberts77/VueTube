@@ -50,4 +50,4 @@ $ npm install
 ## <a name="Improvements">Improvements</a>
 * Add test coverage results
 * Restyle the app
-* Deploy app 
+* Deploy app "COMPLETED"
