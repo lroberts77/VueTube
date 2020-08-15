@@ -1,5 +1,5 @@
 # Vuetube React
-### Technologies: React, jest, enzyme, travis CI, heroku CD JavaScript, Youtube's API, HTML, CSS, axios
+### Technologies: React, jest, enzyme, travis CI, heroku CD, JavaScript, Youtube's API, HTML, CSS, axios
 
 ## Index
 * [Project Direction](#Project)
@@ -7,6 +7,7 @@
 * [Installation](#Install)
 * [Npm Testing](#Npmtest)
 * [Usage](#Usage)
+* [Improvemets](#Improvements)
 
 ## <a name="Project">Project Direction</a>
 I created this app to improve my understanding of testing with jest and enzyme, components and API's. Although I ran into a few problems making this app I learned alot including shallow tesing with enzyme, state management and API usage.
@@ -36,12 +37,6 @@ When I've searched for the video I want to watch,
 I expect to be able to click the video and my video to begin playing.
 ```
 
-## Improvements
-
-* Add test coverage results
-* Restyle the app
-* Deploy app 
-
 ## <a name="Install">Installation</a>
 The deployed live app is [HERE](https://vuetube-react.herokuapp.com/)
 
@@ -51,3 +46,8 @@ $ git clone git@github.com:lroberts77/VueTube.git
 $ cd Vuetube
 $ npm install
 ```
+
+## <a name="Improvements">Improvements</a>
+* Add test coverage results
+* Restyle the app
+* Deploy app 
