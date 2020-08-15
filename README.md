@@ -53,6 +53,14 @@ $ npm install
 $ npm test
 ```
 
+## <a name="Usage">Usage</a>
+* In the root of the project
+```shell
+$ npm start
+```
+If a tab doesn't open with the Vuetube app running, open a new tab and type in localhost:3000 in the url bar and press enter. After Vuetube has loaded click on the search bar and type whatever video you want to see, then click on the video you want to watch.
+
+
 ## <a name="Improvements">Improvements</a>
 * Add test coverage results
 * Restyle the app
