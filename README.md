@@ -1,4 +1,7 @@
 # Vuetube React
+
+[![Build Status](https://travis-ci.org/lroberts77/VueTube.svg?branch=master)](https://travis-ci.org/lroberts77/VueTube)
+
 ### Technologies: React, jest, enzyme, travis CI, heroku CD, JavaScript, Youtube's API, HTML, CSS, axios
 
 ## Index
