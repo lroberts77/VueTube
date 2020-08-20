@@ -1,5 +1,5 @@
 # Vuetube React
-#### [LIVE APP](https://vuetube-react.herokuapp.com/)
+### [LIVE APP](https://vuetube-react.herokuapp.com/)
 
 [![Build Status](https://travis-ci.org/lroberts77/VueTube.svg?branch=master)](https://travis-ci.org/lroberts77/VueTube)
 
