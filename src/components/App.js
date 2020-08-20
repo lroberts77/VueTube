@@ -14,7 +14,7 @@ class App extends Component {
     }
 
     componentDidMount(){
-        this.handleSubmit('basketball')
+        this.handleSubmit('universe')
     }
 
     onVideoSelect = (video) => {
