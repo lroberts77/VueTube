@@ -1,7 +1,7 @@
 # Vuetube React
 ### [LIVE APP](https://vuetube-react.herokuapp.com/)
 
-[![Build Status](https://img.shields.io/travis/lroberts77/VueTube/master.svg?logo=travis&colorA=000000&colorB=4000ff)](https://travis-ci.org/lroberts77/VueTube) <img src="https://img.shields.io/badge/made%20with-React-green.svg?logo=react" alt="made with React">
+[![Build Status](https://img.shields.io/travis/lroberts77/VueTube/master.svg?logo=travis&colorA=000000&colorB=4000ff)](https://travis-ci.org/lroberts77/VueTube) <img src="https://img.shields.io/badge/made%20with-React-green.svg?logo=react&colorA=000000&colorB=4000ff" alt="made with React">
 
 ### Technologies: React, jest, enzyme, travis CI, heroku CD, JavaScript, Youtube's API, HTML, CSS, axios
 
