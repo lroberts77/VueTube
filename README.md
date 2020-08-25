@@ -1,7 +1,7 @@
 # Vuetube React
 ### [LIVE APP](https://vuetube-react.herokuapp.com/)
 
-[![Build Status](https://travis-ci.org/lroberts77/VueTube.svg?branch=master)](https://travis-ci.org/lroberts77/VueTube)
+[![Build Status](https://img.shields.io/travis/lroberts77/VueTube/master.svg?logo=travis&colorA=000000&colorB=4000ff)](https://travis-ci.org/lroberts77/VueTube)
 
 ### Technologies: React, jest, enzyme, travis CI, heroku CD, JavaScript, Youtube's API, HTML, CSS, axios
 
