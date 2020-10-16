@@ -41,11 +41,11 @@ describe('SearchBar', () => {
   
     beforeEach(() => component = mount(<SearchBar/>));
   
-    it("should show the default the state of 'SearchTerm'", () => {
+    it("should show the default state of 'SearchTerm'", () => {
     expect(component.state()).toEqual({"searchTerm": ""});
     });
   
-    it("should change the update the state of 'SearchTerm' when the input is changed", () => {
+    it("should change and update the state of 'SearchTerm' when the input is changed", () => {
     
       component
         .find("input")
